@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>WebSocket Microphone Control</title>
+  <script src="socket.js" charset="utf-8"></script>
+  <style>
+    button {
+      position: relative;
+      font-size: 130px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    div {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <button id="toggleButton" type="button" onclick="toggleMute()">MUTE</button>
+  </div>
+</body>
+</html>
